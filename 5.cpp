@@ -71,7 +71,7 @@ void find_dominating_vertices(int graph[MAX_SIZE][MAX_SIZE], int size) {
                 degree++;
             }
         }
-        if (degree >= size / 2) {
+        if (degree == size -1) {
             printf("%d ", i + 1);
         }
     }
